@@ -1,4 +1,4 @@
 edit:
 	vim source/main.scss
 build:
-	sass source/main.scss bin/stylesheets/main.css
+	sass source/main.scss stylesheets/main.css
