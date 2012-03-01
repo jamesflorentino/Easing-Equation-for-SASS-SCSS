@@ -65,4 +65,4 @@ $easeInOutBack:  cubic-bezier(0.680, -0.550, 0.265, 1.550);
 
 ### Credits
 
-- Credit goes to (MatthewWagerfield)[https://github.com/MatthewWagerfield/LESS-CSS3-Mixins] and his [LESS-CSS3-Mixins](https://github.com/MatthewWagerfield/LESS-CSS3-Mixins) for initially creating this.
+- Credit goes to [MatthewWagerfield](https://github.com/MatthewWagerfield/LESS-CSS3-Mixins) and his [LESS-CSS3-Mixins](https://github.com/MatthewWagerfield/LESS-CSS3-Mixins) for initially creating this.
