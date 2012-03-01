@@ -2,7 +2,9 @@
 
 A list of easing cubic-bezier functions derived from [Robert Penner](http://twitter.com/robpenner)'s easing equation. Code was taken from the [LESS-CSS3-Mixins](https://github.com/MatthewWagerfield/LESS-CSS3-Mixins) github repository and then converted from LESS to SASS/SCSS.
 
-## Usage
+
+
+### Usage
 
 ```scss
 // easing.scss
@@ -59,3 +61,8 @@ $easeInBack:  cubic-bezier(0.600, -0.280, 0.735, 0.045);
 $easeOutBack:  cubic-bezier(0.175,	0.885, 0.320, 1.275);
 $easeInOutBack:  cubic-bezier(0.680, -0.550, 0.265, 1.550);
 ```
+
+
+### Credits
+
+- Credit goes to @MatthewWagerfield and his [LESS-CSS3-Mixins](https://github.com/MatthewWagerfield/LESS-CSS3-Mixins) for initially creating this.
