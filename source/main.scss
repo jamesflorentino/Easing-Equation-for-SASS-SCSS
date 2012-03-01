@@ -1,0 +1,133 @@
+@import "easing";
+
+@mixin animated ($easing, $values) {
+	$transition: $easing $values;
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+}
+
+
+// these not important
+
+body {
+	background: #eee;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+.button {
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 100%;
+	float: left;
+	clear: both;
+	margin-bottom: 30px;
+}
+
+.button {
+	color: white;
+	background: #d00;
+	border-bottom: 1px solid #f00;
+	text-shadow: 0 -1px rgba(0,0,0,0.5);
+	box-shadow: 0 10px #a00, 0 11px 5px rgba(0,0,0,0.5);
+	padding: 20px {
+		right: 40px;
+		left: 40px;
+	}
+	&:hover {
+		cursor: pointer;
+		$padding: 100px;
+		padding-right: $padding;
+		padding-left: $padding;
+
+	}
+}
+.easeInCubic {
+	@include animated($easeInCubic, 400ms);
+}
+.easeOutCubic {
+	@include animated($easeOutCubic, 400ms);
+}
+.easeInOutCubic {
+	@include animated($easeOutCubic, 400ms);
+}
+
+
+.easeInCirc {
+	@include animated($easeInCirc, 400ms);
+}
+.easeOutCirc {
+	@include animated($easeOutCirc, 400ms);
+}
+.easeInOutCirc {
+	@include animated($easeOutCirc, 400ms);
+}
+
+
+.easeInExpo {
+	@include animated($easeInExpo, 400ms);
+}
+.easeOutExpo {
+	@include animated($easeOutExpo, 400ms);
+}
+.easeInOutExpo {
+	@include animated($easeOutExpo, 400ms);
+}
+
+
+.easeInQuad {
+	@include animated($easeInQuad, 400ms);
+}
+.easeOutQuad {
+	@include animated($easeOutQuad, 400ms);
+}
+.easeInOutQuad {
+	@include animated($easeOutQuad, 400ms);
+}
+
+
+.easeInQuart {
+	@include animated($easeInQuart, 400ms);
+}
+.easeOutQuart {
+	@include animated($easeOutQuart, 400ms);
+}
+.easeInOutQuart {
+	@include animated($easeOutQuart, 400ms);
+}
+
+
+.easeInQuint {
+	@include animated($easeInQuint, 400ms);
+}
+.easeOutQuint {
+	@include animated($easeOutQuint, 400ms);
+}
+.easeInOutQuint {
+	@include animated($easeOutQuint, 400ms);
+}
+
+
+.easeInSine {
+	@include animated($easeInSine, 400ms);
+}
+.easeOutSine {
+	@include animated($easeOutSine, 400ms);
+}
+.easeInOutSine {
+	@include animated($easeOutSine, 400ms);
+}
+
+
+.easeInBack {
+	@include animated($easeInBack, 400ms);
+}
+.easeOutBack {
+	@include animated($easeOutBack, 400ms);
+}
+.easeInOutBack {
+	@include animated($easeOutBack, 400ms);
+}

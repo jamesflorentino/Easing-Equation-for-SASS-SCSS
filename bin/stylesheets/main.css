@@ -1,0 +1,148 @@
+body {
+  background: #eee;
+  font-family: Helvetica;
+  font-size: 14px; }
+
+.button {
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 100%;
+  float: left;
+  clear: both;
+  margin-bottom: 30px; }
+
+.button {
+  color: white;
+  background: #d00;
+  border-bottom: 1px solid #f00;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px #aa0000, 0 11px 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px; }
+  .button:hover {
+    cursor: pointer;
+    padding-right: 100px;
+    padding-left: 100px; }
+
+.easeInCubic {
+  -webkit-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 400ms;
+  -moz-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 400ms;
+  -o-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 400ms; }
+
+.easeOutCubic {
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 400ms;
+  -moz-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 400ms;
+  -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 400ms; }
+
+.easeInOutCubic {
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 400ms;
+  -moz-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 400ms;
+  -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 400ms; }
+
+.easeInCirc {
+  -webkit-transition: cubic-bezier(0.6, 0.04, 0.98, 0.335) 400ms;
+  -moz-transition: cubic-bezier(0.6, 0.04, 0.98, 0.335) 400ms;
+  -o-transition: cubic-bezier(0.6, 0.04, 0.98, 0.335) 400ms; }
+
+.easeOutCirc {
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 400ms;
+  -moz-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 400ms;
+  -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 400ms; }
+
+.easeInOutCirc {
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 400ms;
+  -moz-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 400ms;
+  -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1) 400ms; }
+
+.easeInExpo {
+  -webkit-transition: cubic-bezier(0.95, 0.05, 0.795, 0.035) 400ms;
+  -moz-transition: cubic-bezier(0.95, 0.05, 0.795, 0.035) 400ms;
+  -o-transition: cubic-bezier(0.95, 0.05, 0.795, 0.035) 400ms; }
+
+.easeOutExpo {
+  -webkit-transition: cubic-bezier(0.19, 1, 0.22, 1) 400ms;
+  -moz-transition: cubic-bezier(0.19, 1, 0.22, 1) 400ms;
+  -o-transition: cubic-bezier(0.19, 1, 0.22, 1) 400ms; }
+
+.easeInOutExpo {
+  -webkit-transition: cubic-bezier(0.19, 1, 0.22, 1) 400ms;
+  -moz-transition: cubic-bezier(0.19, 1, 0.22, 1) 400ms;
+  -o-transition: cubic-bezier(0.19, 1, 0.22, 1) 400ms; }
+
+.easeInQuad {
+  -webkit-transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 400ms;
+  -moz-transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 400ms;
+  -o-transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 400ms; }
+
+.easeOutQuad {
+  -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 400ms;
+  -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 400ms;
+  -o-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 400ms; }
+
+.easeInOutQuad {
+  -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 400ms;
+  -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 400ms;
+  -o-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 400ms; }
+
+.easeInQuart {
+  -webkit-transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 400ms;
+  -moz-transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 400ms;
+  -o-transition: cubic-bezier(0.895, 0.03, 0.685, 0.22) 400ms; }
+
+.easeOutQuart {
+  -webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1) 400ms;
+  -moz-transition: cubic-bezier(0.165, 0.84, 0.44, 1) 400ms;
+  -o-transition: cubic-bezier(0.165, 0.84, 0.44, 1) 400ms; }
+
+.easeInOutQuart {
+  -webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1) 400ms;
+  -moz-transition: cubic-bezier(0.165, 0.84, 0.44, 1) 400ms;
+  -o-transition: cubic-bezier(0.165, 0.84, 0.44, 1) 400ms; }
+
+.easeInQuint {
+  -webkit-transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 400ms;
+  -moz-transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 400ms;
+  -o-transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 400ms; }
+
+.easeOutQuint {
+  -webkit-transition: cubic-bezier(0.23, 1, 0.32, 1) 400ms;
+  -moz-transition: cubic-bezier(0.23, 1, 0.32, 1) 400ms;
+  -o-transition: cubic-bezier(0.23, 1, 0.32, 1) 400ms; }
+
+.easeInOutQuint {
+  -webkit-transition: cubic-bezier(0.23, 1, 0.32, 1) 400ms;
+  -moz-transition: cubic-bezier(0.23, 1, 0.32, 1) 400ms;
+  -o-transition: cubic-bezier(0.23, 1, 0.32, 1) 400ms; }
+
+.easeInSine {
+  -webkit-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 400ms;
+  -moz-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 400ms;
+  -o-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 400ms; }
+
+.easeOutSine {
+  -webkit-transition: cubic-bezier(0.39, 0.575, 0.565, 1) 400ms;
+  -moz-transition: cubic-bezier(0.39, 0.575, 0.565, 1) 400ms;
+  -o-transition: cubic-bezier(0.39, 0.575, 0.565, 1) 400ms; }
+
+.easeInOutSine {
+  -webkit-transition: cubic-bezier(0.39, 0.575, 0.565, 1) 400ms;
+  -moz-transition: cubic-bezier(0.39, 0.575, 0.565, 1) 400ms;
+  -o-transition: cubic-bezier(0.39, 0.575, 0.565, 1) 400ms; }
+
+.easeInBack {
+  -webkit-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 400ms;
+  -moz-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 400ms;
+  -o-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 400ms; }
+
+.easeOutBack {
+  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms;
+  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms;
+  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms; }
+
+.easeInOutBack {
+  -webkit-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms;
+  -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms;
+  -o-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms; }
