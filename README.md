@@ -8,7 +8,7 @@ A list of easing cubic-bezier functions derived from [Robert Penner](http://twit
 
 ```scss
 // easing.scss
-@import "easing.scss";
+@import "easing";
 
 .button {
 	-webkit-transition: 400ms $easeInOutExpo;
