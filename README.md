@@ -4,19 +4,28 @@ A list of easing cubic-bezier functions derived from [Robert Penner](http://twit
 
 
 
-### Usage
+### Usage in a [Compass](http://compass-style.org) project
 
 ```scss
 // easing.scss
 @import "easing";
 
 .button {
-	-webkit-transition: 400ms $easeInOutExpo;
-	-moz-transition: 400ms $easeInOutExpo;
-	-o-transition: 400ms $easeInOutExpo;
-	-ms-transition: 400ms $easeInOutExpo;
+  @include transition(400ms $easeInOutBack);
 }
 ```
+
+
+```sass
+// easing.sass
+@import easing
+
+.button
+  +transition(400ms $easeInOutBack)
+
+```
+
+
 
 ## Easing list
 
