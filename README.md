@@ -3,7 +3,6 @@
 A list of easing cubic-bezier functions derived from [Robert Penner](http://twitter.com/robpenner)'s easing equation. Code was taken from the [LESS-CSS3-Mixins](https://github.com/MatthewWagerfield/LESS-CSS3-Mixins) github repository and then converted from LESS to SASS/SCSS.
 
 
-
 ### Usage in a [Compass](http://compass-style.org) project
 
 ```scss
